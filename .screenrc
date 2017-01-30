@@ -1,0 +1,7 @@
+sessionname eemis_dada2
+setenv ROOT $PWD
+chdir src/R
+screen -t R
+chdir $ROOT
+screen -t man
+screen -t root
